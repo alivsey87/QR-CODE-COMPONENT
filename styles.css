@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     background-color: var(--bg-secondary);
     border-radius: 15px;
-    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px 10px rgba(136, 136, 136, 0.1);
     width: 320px;
     height: 499px;
     padding: 15px;
