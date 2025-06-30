@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg-primary: #D5E1EF;
+    --bg-secondary: #FFFFFF;
+    --color-primary: #1F314F;
+    --color-secondary: #68778D;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-primary);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: calc(100vh * 0.2);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-secondary);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 499px;
+    padding: 15px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 20px;
+}
+
+.text-container p {
+    margin: 0;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--color-primary)
+}
+
+.sub-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
